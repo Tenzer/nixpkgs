@@ -2,13 +2,13 @@
 
 buildGoModule rec {
   pname = "homehub-metrics-exporter";
-  version = "2020-09-25";
+  version = "2020-10-04";
 
   src = fetchFromGitHub {
     owner = "jamesnetherton";
     repo = "homehub-metrics-exporter";
-    rev = "97205599497d72d86e89e78fb1c498bb10742526";
-    sha256 = "0pd2wcmbnb2vjmpylxqljg26rkla1x8vim8pmz77ngkj7d4fp12m";
+    rev = "7c13b467808a3121d939e829175bf459dbc35f6e";
+    sha256 = "0milgawamg5i69j8986rmy4524xcxn97qnmyr1nbz52h2lkzk3ha";
   };
 
   modSha256 = "0jy39cyq741fxljlnxd6qj2fvjyh5k20qlvx70hs6rl0a4jjbgnq";
