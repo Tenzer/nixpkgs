@@ -11,7 +11,7 @@ buildGoModule rec {
     sha256 = "167d512hj11mdj8g1lijgzy2g4n55s25ghls7iblm69vi6vxpqdx";
   };
 
-  modSha256 = "1nmmpd9f3aisgl5frwzylw3341vnd2qwhd4syr8wbj748ca9xgqj";
+  vendorSha256 = "1pd6q5plrqk5vm3hy5kbb83g5siw2p80hzh6z68da16557vphagn";
 
   meta = with lib; {
     description = "Prometheus exporter for the OpenWeatherMap service";

@@ -11,7 +11,7 @@ buildGoModule rec {
     sha256 = "0milgawamg5i69j8986rmy4524xcxn97qnmyr1nbz52h2lkzk3ha";
   };
 
-  modSha256 = "0jy39cyq741fxljlnxd6qj2fvjyh5k20qlvx70hs6rl0a4jjbgnq";
+  vendorSha256 = "0ng44fda1m44jy6hzx9g12gqv93vl12x4ivh6fmsjm3x74nild00";
 
   meta = with lib; {
     description = "Prometheus exporter for the BT Home Hub router";

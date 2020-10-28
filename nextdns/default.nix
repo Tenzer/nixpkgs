@@ -11,7 +11,7 @@ buildGoModule rec {
     sha256 = "149ynmimycw0mc5b6m13nmxry6mn90w2g8kqscaw86bl2h5alhx8";
   };
 
-  modSha256 = "123m3p83rfhg6zbv78vnwlvd1dk7bi71wabwqyghy5h7d052v70k";
+  vendorSha256 = "09whpzsn16znyrknfm5zlhla253r69j6d751czza4c83m4r36swj";
 
   meta = with lib; {
     description = "NextDNS CLI client (DoH Proxy)";
